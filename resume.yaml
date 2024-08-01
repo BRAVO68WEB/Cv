@@ -1,0 +1,95 @@
+cv:
+  name: "Jyotirmoy Bandyopadhayaya"
+  location: "Kanchrapara, India"
+  email: "hi@b68.dev"
+  phone: "+91 6291559872"
+  social_networks:
+    - network: "LinkedIn"
+      username: "bravo68web"
+    - network: "GitHub"
+      username: "bravo68web"
+  sections:
+    summary:
+      - "Experienced DevSecOps professional with a strong foundation in cybersecurity. Certified in CPTS and CEHv12, specializing in security research. Proven leadership skills as ex-Tech Lead for GDSC LPU and practical software development experience as ex-SDE intern at SaaSDen. Passionate about CTFs, demonstrating a hands-on approach to problem-solving and security challenges."
+    education:
+      - institution: "Lovely Professional University"
+        area: "Software Development"
+        start_date: "2020-06"
+        end_date: "2024-06"
+        highlights:
+          - "B.Tech in Computer Science and Engineering"
+          - "Major in Cyber Security"
+    experience:
+      - company: "[SaaSDen](https://dunlin.ai)"
+        position: "Backend Developer"
+        start_date: "2023-06"
+        end_date: "2023-11"
+        highlights:
+          - "SaaS Product Development and Integration"
+          - "IAM, IT Integration, API Development, Analytics, SaaS, Node.js"
+      - company: "[SharpSell](https://sharpsell.ai)"
+        position: "Site Reliability Engineer"
+        start_date: "2023-02"
+        end_date: "2023-04"
+        highlights:
+          - "Infrastructure Management"
+          - "Skill set :- AWS, CodeBuild, CodePipeline, ECS, EC2, ECR, GitHub Actions"
+      - company: "[Hybr1d](https://zenadmin.io)"
+        position: "SDE Intern | Nodejs Backend Developer"
+        start_date: "2022-07"
+        end_date: "2022-12"
+        highlights:
+          - "Developed and maintained the backend of the Hybr1d platform"
+          - "Node.js, Express.js, MongoDB, REST API, JWT, PostgreSQL, Hasura, GraphQL"
+          - "Migrated from Ruby on Rails to TypeScript"
+      - company: "[Engineer's Cradle](https://engineerscradle.com)"
+        position: "DevOps Technical Lead"
+        start_date: "2021-01"
+        end_date: "2022-01"
+        highlights:
+          - "Developed and Deployed scalable application"
+          - "CI/CD, Docker, Gitlab, AWS, Deployment Planning, DevOps, Git"
+    projects:
+      - name: "[Pacsearch](https://github.com/BRAVO68WEB/pacsearch)"
+        date: "2024-06-01"
+        highlights:
+          - "Pacman Package Finder"
+          - "Tech Stack: Next.js, TypeScript, TailwindCSS, Rust, Github Actions, GraphQL, PostgreSQL"
+      - name: "[Zer0bin](https://github.com/BRAVO68WEB/zer0bin)"
+        date: "2024-04-01"
+        highlights:
+          - "Place to paste code/text and share with others"
+          - "Tech Stack: Pug, Vite, TypeScript, Rust, Github Actions, GraphQL, PostgreSQL"
+      - name: "[SHX](https://github.com/BRAVO68WEB/shx)"
+        date: "2023-08-01"
+        highlights:
+          - "Shx is a platform ment to store and share files, images, text and URLs with ease. "
+          - "Tech Stack: Next.js, TypeScript, TailwindCSS, Express, Cloudflare"
+      - name: "[NPM ez Dependency Adder](https://github.com/brag-club/npm-ez-dependency-adder)"
+        date: "2024-02-01"
+        highlights:
+          - "Easily install node dependencies on a single go"
+          - "Tech Stack: Next.js, TypeScript, TailwindCSS, NPM, Cloudflare"
+      - name: "[Synode](https://github.com/TheNestDevs/synode)"
+        date: "2024-06-29"
+        highlights:
+          - "Synode (pronounced sai-node) is payment app from the future, to unplug and pay. "
+          - "Tech Stack: TypeScript, AVAX Blockchain, Flutter, Dart, AWS, Cloudflare"
+    certifications:
+      - name: "[Certified Ethical Hacker v12](https://safe.b68dev.xyz/Kz7jk0O8.pdf) by [EC-Council](https://www.eccouncil.org/)"
+        date: "2024-04"
+      - name: "[Certified Penetration Testing Specialist](https://www.credly.com/badges/d3c0c02e-4946-4ecb-a513-be4d2be8f812) by [HackTheBox](https://www.hackthebox.com/)"
+        date: "2024-07"
+    technologies:
+      - label: "Web Development"
+        details: "HTML, CSS, JavaScript, Node.js, Express.js, React.js, Next.js"
+      - label: "Programming"
+        details: "Python, JavaScript, TypeScript, C++, Rust, Go, Shell"
+      - label: "Databases"
+        details: "PostgreSQL, SQLite, Redis, MySQL, MongoDB"
+      - label: "Tools"
+        details: "Postman, Vim, VS Code, Git, GitHub, Nginx"
+      - label: "DevOps"
+        details: "AWS, Heroku, Netlify, Vercel, DigitalOcean, Google Cloud, Azure, GitHub Actions, CodeBuild, CodePipeline, ECS, EC2, ECR, GCP, Azure"
+      - label: "Security"
+        details: "CEHv12, CPTS, Security Researcher, CTF Player, OWASP, DevSecOps, Nmap, Burp Suite, Metasploit, Wireshark, WPScan, Nessus, Nikto, OSINT"
