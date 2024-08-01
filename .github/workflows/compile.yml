@@ -123,6 +123,7 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: resume-misc-zip
+        path: .
 
     - name: 🔑 Set up GitHub CLI
       run: |
@@ -134,11 +135,14 @@ jobs:
         
     - name: 📄 Upload assets to docs/ folder
       run: |
-        mkdir -p docs
-        cp out/${{ env.PDF_NAME }} docs/cv.pdf
-        cp out/${{ env.HTML_NAME }} docs/index.html
+        mkdir -p docs-temp dl docs
+        mv ${{ env.MISC_NAME }} dl/resume.zip
+        unzip -o dl/${{ env.MISC_NAME }} -d docs-temp/
+        cp docs-temp/out/${{ env.PDF_NAME }} docs/cv.pdf
+        cp docs-temp/out/${{ env.HTML_NAME }} docs/index.html
+        rm -rf docs-temp dl
         git config user.name "b68web"
         git config user.email "git@b68.dev"
         git add docs/
         git commit -m "Add release $TAG_NAME"
-        git push
+        git push origin HEAD:main
