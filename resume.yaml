@@ -93,3 +93,5 @@ cv:
         details: "AWS, Heroku, Netlify, Vercel, DigitalOcean, Google Cloud, Azure, GitHub Actions, CodeBuild, CodePipeline, ECS, EC2, ECR, GCP, Azure"
       - label: "Security"
         details: "CEHv12, CPTS, Security Researcher, CTF Player, OWASP, DevSecOps, Nmap, Burp Suite, Metasploit, Wireshark, WPScan, Nessus, Nikto, OSINT"
+design:
+  theme: engineeringresumes

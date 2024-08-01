@@ -17,6 +17,8 @@ on:
 
 env:
   PDF_NAME: Jyotirmoy_Bandyopadhayaya_CV.pdf
+  MISC_NAME: resume.zip
+  HTML_NAME: Jyotirmoy_Bandyopadhayaya_CV.html
 
 jobs:
   build:
@@ -49,6 +51,12 @@ jobs:
       with:
         name: resume-pdf
         path: out/${{ env.PDF_NAME }}
+
+    - name: 📤 Upload Misc artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: resume-misc-zip
+        path: ${{ env.MISC_NAME }}
 
   release:
     needs: build
@@ -111,6 +119,11 @@ jobs:
         name: resume-pdf
         path: out/
 
+    - name: 📤 Download Misc artifact
+      uses: actions/download-artifact@v2
+      with:
+        name: resume-misc-zip
+
     - name: 🔑 Set up GitHub CLI
       run: |
         echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
@@ -119,3 +132,13 @@ jobs:
       run: |
         gh release create $TAG_NAME out/${{ env.PDF_NAME }} --title "Release $TAG_NAME" --notes "Generated CV PDF for release $TAG_NAME"
         
+    - name: 📄 Upload assets to docs/ folder
+      run: |
+        mkdir -p docs
+        cp out/${{ env.PDF_NAME }} docs/cv.pdf
+        cp out/${{ env.HTML_NAME }} docs/index.html
+        git config user.name "b68web"
+        git config user.email "git@b68.dev"
+        git add docs/
+        git commit -m "Add release $TAG_NAME"
+        git push

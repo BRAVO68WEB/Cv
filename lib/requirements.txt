@@ -1,5 +1,0 @@
-jsonschema
-PyYAML
-jinja2
-pylatex
-colorama
