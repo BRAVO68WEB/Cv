@@ -10,14 +10,16 @@ cv:
       username: "bravo68web"
   sections:
     summary:
-      - "Experienced DevSecOps professional with a strong foundation in cybersecurity. Certified in CPTS and CEHv12, specializing in security research. Proven leadership skills as ex-Tech Lead for GDSC LPU and practical software development experience as ex-SDE intern at SaaSDen. Passionate about CTFs, demonstrating a hands-on approach to problem-solving and security challenges."
+      - "Accomplished Software Engineer with a over 3 years of profesional experience  and proven track record of leading high-impact projects. Expert in optimizing performance, enhancing quality, and delivering user-centric solutions for top-tier organizations. Dedicated mentor, passionate open-source advocate, and active contributor to the developer community."
     education:
       - institution: "Lovely Professional University"
-        area: "Software Development"
+        area: "Computer Science and Engineering"
         start_date: "2020-06"
         end_date: "2024-06"
+        location: "Jalandhar, India"
+        degree: Bachelor of Technology
         highlights:
-          - "B.Tech in Computer Science and Engineering"
+          - "Scored GPA of 7.8/10"
           - "Major in Cyber Security"
     experience:
       - company: "[SaaSDen](https://dunlin.ai)"
@@ -26,34 +28,36 @@ cv:
         end_date: "2023-11"
         highlights:
           - "SaaS Product Development and Integration"
-          - "IAM, IT Integration, API Development, Analytics, SaaS, Node.js"
+          - "Build deployment workflows for the product"
+          - "Skill set :- IAM, IT Integration, API Development, Analytics, SaaS, Node.js"
       - company: "[SharpSell](https://sharpsell.ai)"
         position: "Site Reliability Engineer"
         start_date: "2023-02"
         end_date: "2023-04"
         highlights:
-          - "Infrastructure Management"
+          - "Infrastructure Management as AWS Administartor"
           - "Skill set :- AWS, CodeBuild, CodePipeline, ECS, EC2, ECR, GitHub Actions"
       - company: "[Hybr1d](https://zenadmin.io)"
-        position: "SDE Intern | Nodejs Backend Developer"
+        position: "SDE Intern"
         start_date: "2022-07"
         end_date: "2022-12"
         highlights:
           - "Developed and maintained the backend of the Hybr1d platform"
-          - "Node.js, Express.js, MongoDB, REST API, JWT, PostgreSQL, Hasura, GraphQL"
           - "Migrated from Ruby on Rails to TypeScript"
+          - "Skill set :- Node.js, Express.js, MongoDB, REST API, JWT, PostgreSQL, Hasura, GraphQL"
       - company: "[Engineer's Cradle](https://engineerscradle.com)"
-        position: "DevOps Technical Lead"
+        position: "DevOps Engineer"
         start_date: "2021-01"
         end_date: "2022-01"
         highlights:
-          - "Developed and Deployed scalable application"
-          - "CI/CD, Docker, Gitlab, AWS, Deployment Planning, DevOps, Git"
+          - "Developed and Deployed scalable applications"
+          - "Skill set :- CI/CD, Docker, Gitlab, AWS, Deployment Planning, DevOps, Git"
     projects:
       - name: "[Pacsearch](https://github.com/BRAVO68WEB/pacsearch)"
         date: "2024-06-01"
         highlights:
           - "Pacman Package Finder"
+          - "Indexed over 120,000 packages"
           - "Tech Stack: Next.js, TypeScript, TailwindCSS, Rust, Github Actions, GraphQL, PostgreSQL"
       - name: "[Zer0bin](https://github.com/BRAVO68WEB/zer0bin)"
         date: "2024-04-01"
@@ -73,6 +77,7 @@ cv:
       - name: "[Synode](https://github.com/TheNestDevs/synode)"
         date: "2024-06-29"
         highlights:
+          - "Won 2nd place in HackForBengal 2024"
           - "Synode (pronounced sai-node) is payment app from the future, to unplug and pay. "
           - "Tech Stack: TypeScript, AVAX Blockchain, Flutter, Dart, AWS, Cloudflare"
     certifications:
@@ -80,7 +85,7 @@ cv:
         date: "2024-04"
       - name: "[Certified Penetration Testing Specialist](https://www.credly.com/badges/d3c0c02e-4946-4ecb-a513-be4d2be8f812) by [HackTheBox](https://www.hackthebox.com/)"
         date: "2024-07"
-    technologies:
+    skills:
       - label: "Web Development"
         details: "HTML, CSS, JavaScript, Node.js, Express.js, React.js, Next.js"
       - label: "Programming"
@@ -91,7 +96,7 @@ cv:
         details: "Postman, Vim, VS Code, Git, GitHub, Nginx"
       - label: "DevOps"
         details: "AWS, Heroku, Netlify, Vercel, DigitalOcean, Google Cloud, Azure, GitHub Actions, CodeBuild, CodePipeline, ECS, EC2, ECR, GCP, Azure"
-      - label: "Security"
+      - label: "Cyber Security"
         details: "CEHv12, CPTS, Security Researcher, CTF Player, OWASP, DevSecOps, Nmap, Burp Suite, Metasploit, Wireshark, WPScan, Nessus, Nikto, OSINT"
 design:
   theme: engineeringresumes
