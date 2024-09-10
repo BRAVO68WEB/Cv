@@ -16,9 +16,9 @@ on:
       - completed
 
 env:
-  PDF_NAME: Jyotirmoy_Bandyopadhayaya_CV.pdf
+  PDF_NAME: Shruti_S_CV.pdf
   MISC_NAME: resume.zip
-  HTML_NAME: Jyotirmoy_Bandyopadhayaya_CV.html
+  HTML_NAME: Shruti_S_CV.html
 
 jobs:
   build:
