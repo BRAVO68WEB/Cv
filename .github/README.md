@@ -1,4 +1,4 @@
-<h1 align="center">Jyotirmoy Bandyopadhayaya - CV</h1>
+<h1 align="center">Shruti S - CV</h1>
 <p align="center">
 <i>This repo contains the source for my personal CV</i>
 <br />
