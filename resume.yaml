@@ -25,7 +25,7 @@ cv:
       - company: "[SaaSDen](https://dunlin.ai)"
         position: "Senior Software Developer"
         start_date: "2023-08"
-        end_date: "Present"
+        end_date: "present"
         highlights:
           - "Founding Engineer and Team Lead for SaaS Product Development and Integration"
           - "Building scalable applications and deployment workflow for product development"
