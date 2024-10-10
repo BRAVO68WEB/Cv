@@ -47,13 +47,13 @@ jobs:
       run: make all
 
     - name: 📤 Upload PDF artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: resume-pdf
         path: out/${{ env.PDF_NAME }}
 
     - name: 📤 Upload Misc artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: resume-misc-zip
         path: ${{ env.MISC_NAME }}
