@@ -10,18 +10,26 @@ cv:
       username: "bravo68web"
   sections:
     summary:
-      - "Accomplished Software Engineer with a over 3 years of profesional experience  and proven track record of leading high-impact projects. Expert in optimizing performance, enhancing quality, and delivering user-centric solutions for top-tier organizations. Dedicated mentor, passionate open-source advocate, and active contributor to the developer community."
+      - "Accomplished Software Engineer with a over 3 years of professional experience  and proven track record of leading high-impact projects. Expert in optimizing performance, enhancing quality, and delivering user-centric solutions for top-tier organizations. Dedicated mentor, passionate open-source advocate, and active contributor to the developer community."
     education:
       - institution: "Lovely Professional University"
         area: "Computer Science and Engineering"
         start_date: "2020-06"
         end_date: "2024-06"
         location: "Jalandhar, India"
-        degree: Bachelor of Technology
+        degree: "Bachelor of Technology"
         highlights:
           - "Scored GPA of 7.8/10"
           - "Major in Cyber Security"
     experience:
+      - company: "[SaaSDen](https://dunlin.ai)"
+        position: "Senior Software Developer"
+        start_date: "2023-08"
+        end_date: "Present"
+        highlights:
+          - "Founding Engineer and Team Lead for SaaS Product Development and Integration"
+          - "Building scalable applications and deployment workflow for product development"
+          - "Skill set :- Product Engineering, API Development, SaaS, Node.js, Go, Rust, PostgreSQL"
       - company: "[SaaSDen](https://dunlin.ai)"
         position: "Backend Developer"
         start_date: "2023-06"
@@ -56,8 +64,8 @@ cv:
       - name: "[Pacsearch](https://github.com/BRAVO68WEB/pacsearch)"
         date: "2024-06-01"
         highlights:
-          - "Pacman Package Finder"
-          - "Indexed over 120,000 packages"
+          - "Pacman Package Finder for Arch Linux"
+          - "Indexed over 130,000 Arch Linux packages"
           - "Tech Stack: Next.js, TypeScript, TailwindCSS, Rust, Github Actions, GraphQL, PostgreSQL"
       - name: "[Zer0bin](https://github.com/BRAVO68WEB/zer0bin)"
         date: "2024-04-01"
@@ -72,13 +80,13 @@ cv:
       - name: "[NPM ez Dependency Adder](https://github.com/brag-club/npm-ez-dependency-adder)"
         date: "2024-02-01"
         highlights:
-          - "Easily install node dependencies on a single go"
+          - "Easily install npm dependencies on a single go"
           - "Tech Stack: Next.js, TypeScript, TailwindCSS, NPM, Cloudflare"
       - name: "[Synode](https://github.com/TheNestDevs/synode)"
         date: "2024-06-29"
         highlights:
           - "Won 2nd place in HackForBengal 2024"
-          - "Synode (pronounced sai-node) is payment app from the future, to unplug and pay. "
+          - "Synode (pronounced sai-node) is payment app from the future, to unplug and pay. Supports offline payments"
           - "Tech Stack: TypeScript, AVAX Blockchain, Flutter, Dart, AWS, Cloudflare"
     certifications:
       - name: "[Certified Ethical Hacker v12](https://safe.b68dev.xyz/Kz7jk0O8.pdf) by [EC-Council](https://www.eccouncil.org/)"
