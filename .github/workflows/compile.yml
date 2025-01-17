@@ -18,7 +18,7 @@ on:
 env:
   PDF_NAME: Shruti_S_CV.pdf
   MISC_NAME: resume.zip
-  HTML_NAME: Shruti_S_CV.html
+  HTML_NAME: Shruti_S_CV_PASTETOGRAMMARLY.html
 
 jobs:
   build:
