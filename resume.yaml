@@ -19,14 +19,14 @@ cv:
         location: "Chennai, TamilNadu, India"
         degree: Bachelor of Engineering
         highlights:
-          - "Scored CGPA of 8.96/10"
+          - "Scored CGPA of 9/10"
     experience:
       - company: "Cognizant"
         position: "Intern"
         start_date: "2024-07-04"
         end_date: "2024-08-31"
         highlights:
-          - "Built a dynamic website with login portal using AngularJS"
+          - "Built an AI/ML application with a focus on GenAI in the Medicare Domain"
           - "Skill set :- AngularJS, Python(Flask), Semantic Kernel, Okta, Azure LLM, MS SQL Server"
     projects:
       - name: "[SoundSynth](https://github.com/Shruti-S0405)"
@@ -55,7 +55,7 @@ cv:
       - label: "Web Development"
         details: "HTML, CSS, JavaScript, Node.js, Express.js, React, Angular"
       - label: "Programming"
-        details: "Python, JavaScript, C++, C, Java"
+        details: "Java, JavaScript, C++, C, Python"
       - label: "Databases"
         details: "MySQL, Microsoft SQL Server"
       - label: "Tools"
