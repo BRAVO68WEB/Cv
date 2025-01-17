@@ -5,7 +5,7 @@ on:
     inputs:
       tag:
         description: 'Tag to create (e.g. 4.2.0)'
-        required: false
+        required: true
         default: ''
       description:
         description: 'Tag description'
@@ -66,8 +66,8 @@ jobs:
 
       - name: 🔑 Set Up Git User
         run: |
-          git config user.name "Liss-Bot"
-          git config user.email "liss-bot@d0h.co"
+          git config user.name "b68web"
+          git config user.email "git@b68.dev"
           git config --global init.defaultBranch main
 
       - name: 📦 Create New Tag
