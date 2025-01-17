@@ -16,9 +16,9 @@ on:
       - completed
 
 env:
-  PDF_NAME: Shruti_S_CV.pdf
+  PDF_NAME: Jyotirmoy_Bandyopadhayaya_CV.pdf
   MISC_NAME: resume.zip
-  HTML_NAME: Shruti_S_CV.html
+  HTML_NAME: Jyotirmoy_Bandyopadhayaya_CV.html
 
 jobs:
   build:
@@ -47,13 +47,13 @@ jobs:
       run: make all
 
     - name: 📤 Upload PDF artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: resume-pdf
         path: out/${{ env.PDF_NAME }}
 
     - name: 📤 Upload Misc artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: resume-misc-zip
         path: ${{ env.MISC_NAME }}
@@ -73,7 +73,7 @@ jobs:
 
     - name: 🏷️ Download Tag Artifact
       if: github.event_name == 'workflow_run'
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4
       with:
         name: tag
         path: .
@@ -114,13 +114,13 @@ jobs:
         fi
 
     - name: 📤 Download PDF artifact
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4
       with:
         name: resume-pdf
         path: out/
 
     - name: 📤 Download Misc artifact
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4
       with:
         name: resume-misc-zip
         path: .
