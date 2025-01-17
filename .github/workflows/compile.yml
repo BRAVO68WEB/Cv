@@ -18,7 +18,7 @@ on:
 env:
   PDF_NAME: Jyotirmoy_Bandyopadhayaya_CV.pdf
   MISC_NAME: resume.zip
-  HTML_NAME: Jyotirmoy_Bandyopadhayaya_CV.html
+  HTML_NAME: Jyotirmoy_Bandyopadhayaya_CV_PASTETOGRAMMARLY.html
 
 jobs:
   build:
