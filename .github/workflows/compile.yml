@@ -16,9 +16,9 @@ on:
       - completed
 
 env:
-  PDF_NAME: Jyotirmoy_Bandyopadhayaya_CV.pdf
+  PDF_NAME: Shruti_S_CV.pdf
   MISC_NAME: resume.zip
-  HTML_NAME: Jyotirmoy_Bandyopadhayaya_CV.html
+  HTML_NAME: Shruti_S_CV.html
 
 jobs:
   build:
@@ -37,6 +37,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install rendercv
+        python3 -m pip install --force-reinstall rendercv==1.8
 
     - name: 📝 Install LaTeX
       run: |
@@ -50,7 +51,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: resume-pdf
-        path: out/${{ env.PDF_NAME }}
+        path: rendercv_output/${{ env.PDF_NAME }}
 
     - name: 📤 Upload Misc artifact
       uses: actions/upload-artifact@v4
@@ -117,7 +118,7 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: resume-pdf
-        path: out/
+        path: rendercv_output/
 
     - name: 📤 Download Misc artifact
       uses: actions/download-artifact@v4
@@ -131,15 +132,15 @@ jobs:
 
     - name: 📄 Create GitHub Release
       run: |
-        gh release create $TAG_NAME out/${{ env.PDF_NAME }} --title "Release $TAG_NAME" --notes "Generated CV PDF for release $TAG_NAME"
+        gh release create $TAG_NAME rendercv_output/${{ env.PDF_NAME }} --title "Release $TAG_NAME" --notes "Generated CV PDF for release $TAG_NAME"
         
     - name: 📄 Upload assets to docs/ folder
       run: |
         mkdir -p docs-temp dl docs
         mv ${{ env.MISC_NAME }} dl/resume.zip
         unzip -o dl/${{ env.MISC_NAME }} -d docs-temp/
-        cp docs-temp/out/${{ env.PDF_NAME }} docs/cv.pdf
-        cp docs-temp/out/${{ env.HTML_NAME }} docs/index.html
+        cp docs-temp/rendercv_output/${{ env.PDF_NAME }} docs/cv.pdf
+        cp docs-temp/rendercv_output/${{ env.HTML_NAME }} docs/index.html
         rm -rf docs-temp dl
         git config user.name "b68web"
         git config user.email "git@b68.dev"
