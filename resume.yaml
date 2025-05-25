@@ -22,13 +22,6 @@ cv:
           - "Scored GPA of 7.8/10"
           - "Major in Cyber Security"
     experience:
-      - company: "[Astral Copilot](https://astralcopilot.com)"
-        position: "Senior Software Engineer"
-        start_date: "2025-05"
-        end_date: "present"
-        highlights:
-          - "Building LLM based AI tutor"
-          - "Skill set :- Product Engineering, Integrations, Bun, Supabase, Trigger.dev, PostgreSQL"
       - company: "[Engineer's Cradle](https://engineerscradle.com)"
         position: "Senior Software Developer"
         start_date: "2024-07"
