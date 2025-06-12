@@ -32,7 +32,7 @@ cv:
           - "Build and maintained the backend of the platform using TypeScript and Rust"
           - "Implemented a custom GraphQL server with Go and PostgreSQL for public facing APIs"
           - "Developed and maintained the platform's CI/CD pipeline using GitHub Actions"
-          - "Skill set :- TypeScript, Bun, Go, Rust, PostgreSQL"
+          - "Skill set :- TypeScript, Bun, Go, Rust, PostgreSQL, Couchbase, Redis, AWS, GitHub Actions, GraphQL"
       - company: "[SaaSDen](https://dunlin.ai)"
         position: "Backend Developer"
         start_date: "2023-06"
