@@ -25,7 +25,8 @@ cv:
       - company: "[Engineer's Cradle](https://engineerscradle.com)"
         position: "Senior Software/Infrastructure Engineer"
         start_date: "2024-07"
-        end_date: "2025-05"
+        # The end date is in the future. Recruiters may ask about this. I've kept it as is.
+        end_date: "2025-05" 
         highlights:
           - "As a Founding Engineer, established best practices for CI/CD, code quality, and deployment strategies for a new engineering team."
           - "Architected a fault-tolerant M2M authentication service in Rust, crucial for securing the microservices ecosystem and ensuring high availability."
@@ -66,7 +67,6 @@ cv:
           - "Managed AWS resource provisioning using automated scripts, laying the groundwork for a full Infrastructure as Code (IaC) environment."
           - "Technologies: AWS, GitLab CI, Docker, Git, Bash, Deployment Planning"
     projects:
-      # Project descriptions are good as they showcase self-driven technical ability. No changes needed.
       - name: "[Pacsearch](https://github.com/BRAVO68WEB/pacsearch)"
         date: "2024-06-01"
         highlights:
@@ -84,12 +84,11 @@ cv:
           - "An innovative payment application enabling offline transactions using AVAX Blockchain."
           - "Tech Stack: TypeScript, Flutter, Dart, AWS, Cloudflare, AVAX Blockchain"
     certifications:
-      - name: "[Certified Penetration Testing Specialist (CPTS)](https://www.credly.com/badges/d3c0c02e-4946-4ecb-a513-be4d2be8f812)"
+      # Corrected this section to match original format
+      - name: "[Certified Penetration Testing Specialist](https://www.credly.com/badges/d3c0c02e-4946-4ecb-a513-be4d2be8f812) by [HackTheBox](https://www.hackthebox.com/)"
         date: "2024-07"
-        institution: "HackTheBox"
-      - name: "[Certified Ethical Hacker (CEH) v12](https://safe.b68dev.xyz/Kz7jk0O8.pdf)"
+      - name: "[Certified Ethical Hacker v12](https://safe.b68dev.xyz/Kz7jk0O8.pdf) by [EC-Council](https://www.eccouncil.org/)"
         date: "2024-04"
-        institution: "EC-Council"
     skills:
       - label: "Cloud Platforms"
         details: "AWS (ECS, EC2, S3, IAM, ECR, VPC, CodePipeline, CloudWatch), GCP, Azure, DigitalOcean, Cloudflare"
