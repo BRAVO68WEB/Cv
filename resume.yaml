@@ -10,7 +10,7 @@ cv:
       username: "bravo68web"
   sections:
     summary:
-      - "Results-driven DevOps and Site Reliability Engineer (SRE) with a strong software development background. Specializes in designing and implementing highly available, scalable, and cost-efficient cloud infrastructure. Proven expert in CI/CD automation, containerization (Docker, ECS), and strategic cloud cost management, demonstrated by a 76% reduction in AWS costs ($14.5K/month savings). Solves complex infrastructure challenges through a 'code-first' automation approach to enhance system reliability and accelerate deployment velocity."
+      - "Senior Software Engineer with 3+ years of experience specializing in high-performance backend architecture with a DevSecOps mindset. Expert in Go and Rust for building resilient microservices and scalable APIs. Proven ability to optimize system design, leading to a 3/4th reduction in AWS infrastructure costs."
     education:
       - institution: "Lovely Professional University"
         area: "Computer Science and Engineering"
