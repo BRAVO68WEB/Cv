@@ -22,8 +22,16 @@ cv:
           - "GPA: 7.8/10"
           - "Major: Cyber Security"
     experience:
+      - company: "[LoginRadius](https://www.loginradius.com)"
+        position: "Software Engineer - Implementation"
+        start_date: "2025-07"
+        end_date: "present"
+        highlights:
+          - "Help Customer to integrate LoginRadius with their existing systems as CIAM solution."
+          - "Worked closely with cross-functional teams to understand business requirements and translate them into technical solutions, ensuring a smooth integration process."
+          - "Write and maintain high-quality SDKs and Documentation for LoginRadius Platform."
       - company: "[Engineer's Cradle](https://engineerscradle.com)"
-        position: "Senior Software/Infrastructure Engineer"
+        position: "Senior Software Engineer"
         start_date: "2024-07"
         end_date: "2025-05"
         highlights:
@@ -33,7 +41,7 @@ cv:
           - "Owned the end-to-end CI/CD pipeline using GitHub Actions, automating builds, testing, and deployments to achieve a 10x increase in deployment frequency with zero manual errors."
           - "Technologies: Rust, Go, TypeScript, AWS, GitHub Actions, PostgreSQL, Redis, Docker"
       - company: "[SaaSDen](https://dunlin.ai)"
-        position: "Backend & Infrastructure Engineer"
+        position: "Backend Engineer"
         start_date: "2023-06"
         end_date: "2023-11"
         highlights:
@@ -50,7 +58,7 @@ cv:
           - "Established comprehensive monitoring and alerting for the ECS environment using CloudWatch and Prometheus, reducing Mean Time to Detection (MTTD) of production issues by 60%."
           - "Technologies: AWS (ECS, EC2, ECR, IAM, CodePipeline, CodeBuild), GitHub Actions, Docker, Cost Optimization"
       - company: "[Hybr1d](https://zenadmin.io)"
-        position: "SDE Intern (Infrastructure Focus)"
+        position: "SDE Intern"
         start_date: "2022-07"
         end_date: "2022-12"
         highlights:
