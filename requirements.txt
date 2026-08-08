@@ -1,0 +1,2 @@
+# CI + local pin. RenderCV 2.x uses Typst (not LaTeX) and supports design.typography etc.
+rendercv==2.8
