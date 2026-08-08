@@ -1,8 +1,9 @@
 cv:
   name: "Jyotirmoy Bandyopadhayaya"
-  location: "Kanchrapara, India"
+  location: "India · Open to Remote"
   email: "hi@b68.dev"
   phone: "+91 6291559872"
+  website: "https://itsmebravo.dev"
   social_networks:
     - network: "LinkedIn"
       username: "bravo68web"
@@ -10,113 +11,83 @@ cv:
       username: "bravo68web"
   sections:
     summary:
-      - "Senior Software Engineer with 3+ years of experience specializing in high-performance backend architecture with a DevSecOps mindset. Expert in Go and Rust for building resilient microservices and scalable APIs. Proven ability to optimize system design, leading to a 3/4th reduction in AWS infrastructure costs."
-    education:
-      - institution: "Lovely Professional University"
-        area: "Computer Science and Engineering"
-        start_date: "2020-06"
-        end_date: "2024-06"
-        location: "Jalandhar, India"
-        degree: "Bachelor of Technology"
-        highlights:
-          - "GPA: 7.8/10"
-          - "Major: Cyber Security"
+      - "Senior Software Engineer — backend, identity, and platform. 4+ years shipping production systems in Go, Rust, and TypeScript. Founder of EnvSync; IETF OAuth draft author; active OSS (600+ PRs; coder, kan, LoginRadius SDKs). Impact: 76% AWS cost cut, ~30% lower P95 latency, ~10x deploy frequency."
     experience:
       - company: "[LoginRadius](https://www.loginradius.com)"
         position: "Software Engineer - L1"
         start_date: "2026-03"
         end_date: "present"
         highlights:
-          - "Worked on MCP and Agentic IAM systems"
-          - "Developer and maintain CIAM platform at LoginRaidus"
-          - "Write and maintain high-quality SDKs and Documentation for LoginRadius Platform."
+          - "Product/R&D: ship Agentic IAM, MCP Auth, and B2B IAM on LoginRadius CIAM (enterprise authN/authZ)."
+          - "Author IETF drafts on OAuth push-based authenticator discovery/lifecycle and CIBA binding."
+          - "Own APIs, SDKs, references, and PoCs (TypeScript, Go, Docker, DataDog, GitLab CI)."
+      - company: "[EnvSync Cloud](https://github.com/EnvSync-Cloud) ([envsync.cloud](https://envsync.cloud))"
+        position: "Founder & Product Architect"
+        start_date: "2025-01"
+        end_date: "present"
+        highlights:
+          - "Multi-tenant secrets platform: Bun+Hono API, Go CLI, React dashboard, TS/Go SDKs; dual-license OSS+Enterprise monorepo (Turbo/Bun)."
+          - "miniKMS (Go): tenant envelope encryption (HKDF, AES-256-GCM), 3-level PKI, hash-chained audit over gRPC. EE: OIDC/SAML, OpenFGA, rotation, dynamic secrets, GHA pull."
       - company: "[LoginRadius](https://www.loginradius.com)"
-        position: "Software Engineer - Implementation"
+        position: "Software Engineer — Implementation"
         start_date: "2025-07"
         end_date: "2026-02"
         highlights:
-          - "Help Customer to integrate LoginRadius with their existing systems as CIAM solution."
-          - "Worked closely with cross-functional teams to understand business requirements and translate them into technical solutions, ensuring a smooth integration process."
-          - "Write and maintain high-quality SDKs and Documentation for LoginRadius Platform."
+          - "Led enterprise CIAM integrations; authored SDKs/docs/reference apps that unblocked customer engineering teams."
       - company: "[Engineer's Cradle](https://engineerscradle.com)"
-        position: "Senior Software Engineer"
+        position: "Software Engineer (Founding Engineer)"
         start_date: "2024-07"
         end_date: "2025-05"
         highlights:
-          - "As a Founding Engineer, established best practices for CI/CD, code quality, and deployment strategies, reducing new developer onboarding time by 40% and accelerating feature delivery."
-          - "Architected a fault-tolerant M2M authentication service in Rust, eliminating a single point of failure and ensuring 99.9% uptime for critical inter-service communication."
-          - "Engineered a scalable GraphQL gateway in Go to handle high-traffic public APIs, implementing intelligent caching and performance monitoring to reduce P95 latency by 30%."
-          - "Owned the end-to-end CI/CD pipeline using GitHub Actions, automating builds, testing, and deployments to achieve a 10x increase in deployment frequency with zero manual errors."
-          - "Technologies: Rust, Go, TypeScript, AWS, GitHub Actions, PostgreSQL, Redis, Docker"
-      - company: "[SaaSDen](https://dunlin.ai)"
-        position: "Backend Engineer"
-        start_date: "2023-06"
+          - "Founding engineer: CI/CD and quality standards; ~40% faster onboarding."
+          - "Rust M2M auth (99.9% uptime); Go GraphQL gateway (~30% lower P95); owned GHA pipelines (~10x deploys)."
+      - company: "[SaaSDen / Dunlin AI](https://dunlin.ai) · [SharpSell](https://sharpsell.ai)"
+        position: "Backend Engineer · Site Reliability Engineer"
+        start_date: "2023-02"
         end_date: "2023-11"
         highlights:
-          - "Built and containerized a resilient microservice in Rust (Tokio) to handle critical API token refreshes, preventing catastrophic authentication failures and bolstering overall system reliability."
-          - "Designed and implemented automated CI/CD workflows using GitHub Actions, which increased deployment frequency and enabled developers to ship features 50% faster."
-          - "Technologies: Rust, Python, TypeScript, AWS, PostgreSQL, Redis, Docker"
-      - company: "[SharpSell](https://sharpsell.ai)"
-        position: "Site Reliability Engineer"
-        start_date: "2023-02"
-        end_date: "2023-04"
-        highlights:
-          - "Led a cost-optimization initiative by migrating core infrastructure from EC2 to containerized AWS ECS, slashing monthly AWS costs by 76% (from $19K to $4.5K)."
-          - "Designed and maintained robust CI/CD pipelines using AWS CodePipeline, enabling hands-free, zero-downtime blue-green deployments."
-          - "Established comprehensive monitoring and alerting for the ECS environment using CloudWatch and Prometheus, reducing Mean Time to Detection (MTTD) of production issues by 60%."
-          - "Technologies: AWS (ECS, EC2, ECR, IAM, CodePipeline, CodeBuild), GitHub Actions, Docker, Cost Optimization"
-      - company: "[Hybr1d](https://zenadmin.io)"
-        position: "SDE Intern"
-        start_date: "2022-07"
-        end_date: "2022-12"
-        highlights:
-          - "Contributed to a backend migration from Ruby to TypeScript that streamlined CI/CD processes, significantly improving application stability and deployment speed."
-          - "Developed stateless backend services with a focus on containerization, paving the way for future scalability and migration to orchestrated environments like Kubernetes."
-          - "Technologies: Node.js, TypeScript, PostgreSQL, Hasura, GraphQL, Docker"
-      - company: "[Engineer's Cradle](https://engineerscradle.com)"
-        position: "DevOps Engineer"
-        start_date: "2021-01"
-        end_date: "2022-01"
-        highlights:
-          - "Automated application deployments using Docker and GitLab CI, reducing manual engineering effort by over 90% and minimizing deployment-related errors."
-          - "Managed AWS resource provisioning via automated scripts, establishing the foundational principles for a full Infrastructure as Code (IaC) transformation."
-          - "Technologies: AWS, GitLab CI, Docker, Git, Bash, Deployment Planning"
+          - "Rust (Tokio) token-refresh service; CI/CD ~50% faster shipping. EC2→ECS cut AWS cost 76% ($19K→$4.5K); blue-green deploys; ~60% lower MTTD."
     projects:
-      - name: "[Pacsearch](https://github.com/BRAVO68WEB/pacsearch)"
-        date: "2024-06-01"
+      - name: "Selected OSS & projects"
+        date: "2023–2026"
         highlights:
-          - "Developed a high-performance search engine for Arch Linux packages, indexing over 130,000 packages with sub-second query responses."
-          - "Tech Stack: Next.js, TypeScript, Rust, GraphQL, PostgreSQL, GitHub Actions"
-      - name: "[Zer0bin](https://github.com/BRAVO68WEB/zer0bin)"
-        date: "2024-04-01"
-        highlights:
-          - "A secure, server-side rendered pastebin application built with a focus on performance, security, and simplicity."
-          - "Tech Stack: Rust, TypeScript, Vite, PostgreSQL, GraphQL, GitHub Actions"
-      - name: "[Synode](https://github.com/TheNestDevs/synode)"
-        date: "2024-06-29"
-        highlights:
-          - "**Won 2nd place in HackForBengal 2024.**"
-          - "An innovative payment application enabling offline transactions using AVAX Blockchain and local device communication."
-          - "Tech Stack: TypeScript, Flutter, Dart, AWS, Cloudflare, AVAX Blockchain"
-    certifications:
-      - name: "[Certified Penetration Testing Specialist](https://www.credly.com/badges/d3c0c02e-4946-4ecb-a513-be4d2be8f812) by [HackTheBox](https://www.hackthebox.com/)"
-        date: "2024-07"
-      - name: "[Certified Ethical Hacker v12](https://safe.b68dev.xyz/Kz7jk0O8.pdf) by [EC-Council](https://www.eccouncil.org/)"
-        date: "2024-04"
+          - "OSS (merged): [coder/coder](https://github.com/coder/coder) CLI `whoami` + dotfiles install check; [kanbn/kan](https://github.com/kanbn/kan) OIDC auth plugin; LoginRadius Android PAR API + Go SDK HTTP client fixes."
+          - "[AuthLens](https://github.com/BRAVO68WEB/authlens): OAuth/OIDC/SAML/CIAM debugger. [x-log](https://github.com/BRAVO68WEB/x-log): ActivityPub microblog. [Chabi](https://github.com/EnvSync-Cloud/chabi): Rust Redis-compatible server."
+    publications:
+      - title: "[OAuth Push-Device Discovery & Lifecycle](https://datatracker.ietf.org/doc/draft-bandyopadhayaya-oauth-push-device/) · [CIBA Binding](https://datatracker.ietf.org/doc/html/draft-bandyopadhayaya-oauth-ciba-push-binding-00)"
+        authors: ["J. Bandyopadhayaya"]
+        date: "2026-07"
+        journal: "IETF Internet-Drafts"
     skills:
-      - label: "Cloud Platforms"
-        details: "AWS (ECS, EC2, S3, IAM, ECR, VPC, CodePipeline, CloudWatch), GCP, Azure, DigitalOcean, Cloudflare"
-      - label: "IaC & Orchestration"
-        details: "Docker, Docker Compose, Terraform, Ansible, Kubernetes (K8s)"
-      - label: "CI/CD & Automation"
-        details: "GitHub Actions, GitLab CI, AWS CodeBuild, Jenkins"
-      - label: "Observability & Monitoring"
-        details: "Prometheus, Grafana, AWS CloudWatch, ELK Stack, Logging, Alerting, MTTD/MTTR"
-      - label: "Programming & Scripting"
-        details: "Go, Rust, Python, TypeScript, Bash"
-      - label: "Databases & Caching"
-        details: "PostgreSQL, Redis, MySQL, MongoDB"
-      - label: "Security"
-        details: "DevSecOps Principles, OWASP Top 10, Network Security, IAM, CPTS, CEHv12"
+      - label: "Languages"
+        details: "Go, Rust, TypeScript, Python, Bash"
+      - label: "Systems"
+        details: "Microservices, REST/gRPC, GraphQL, PostgreSQL, Redis, Bun, Hono, Docker, Turbo monorepos, GitHub Actions"
+      - label: "Identity & Security"
+        details: "OAuth 2.0, OIDC, SAML, CIBA, CIAM/IAM, OpenFGA, envelope encryption/KMS, DevSecOps · [CPTS](https://www.credly.com/badges/d3c0c02e-4946-4ecb-a513-be4d2be8f812) · [CEHv12](https://safe.b68dev.xyz/Kz7jk0O8.pdf)"
+      - label: "Cloud & Ops"
+        details: "AWS (ECS, EC2, S3, IAM, ECR, CodePipeline, CloudWatch), Cloudflare, Keycloak, DataDog, Prometheus, Grafana"
+    education:
+      - institution: "Lovely Professional University"
+        area: "CSE (Cyber Security), GPA 7.8/10"
+        start_date: "2020-06"
+        end_date: "2024-06"
+        degree: "B.Tech"
 design:
   theme: engineeringresumes
+  typography:
+    line_spacing: "0.55em"
+    font_size:
+      body: "9.5pt"
+      name: "22pt"
+      section_titles: "1.1em"
+  section_titles:
+    space_above: "0.28cm"
+    space_below: "0.15cm"
+  sections:
+    space_between_regular_entries: "0.22cm"
+    space_between_text_based_entries: "0.08cm"
+  entries:
+    highlights:
+      space_above: 0.04cm
+      space_between_items: 0.04cm
