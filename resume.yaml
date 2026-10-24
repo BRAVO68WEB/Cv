@@ -11,9 +11,8 @@ cv:
       username: "bravo68web"
   sections:
     summary:
-      - "Software engineer focused on backend systems, identity, and developer platforms. More than four years shipping production systems in Go, Rust, and TypeScript. Primary role is enterprise customer identity and access management (CIAM) at LoginRadius. EnvSync and Engineer's Cradle were concurrent with LoginRadius, not sequential roles."
-      - "Author of IETF drafts on OAuth push-based authenticator discovery and Client Initiated Backchannel Authentication (CIBA) binding. Built oauth-impl, a self-hosted OAuth 2.0 and OpenID Connect issuer for authentication, authorization, and single sign-on (SSO), along with Chabi, a Rust Redis-compatible server, and x-log, an ActivityPub microblog."
-      - "On systems owned end to end, this work cut AWS cost by 76%, lowered P95 latency by about 30%, and raised deploy frequency by about 10x."
+      - "Software engineer focused on backend systems, identity, and developer platforms. More than four years shipping production systems in Go, Rust, and TypeScript. Primary role is enterprise CIAM at LoginRadius. EnvSync runs alongside that role."
+      - "Author of IETF drafts on OAuth push-based authenticator discovery and CIBA binding. On systems owned end to end, this work cut AWS cost by 76%, lowered P95 latency by about 30%, and raised deploy frequency by about 10x."
     experience:
       - company: "[LoginRadius](https://www.loginradius.com)"
         position: "Software Engineer"
