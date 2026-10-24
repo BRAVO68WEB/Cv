@@ -19,7 +19,7 @@ cv:
         end_date: "present"
         highlights:
           - "Ship agentic IAM, MCP authentication, DPoP, and CIBA on LoginRadius customer identity and access management (CIAM), including B2B single sign-on and authorization."
-          - "Author of individual Internet-Drafts on [OAuth push-device discovery](https://datatracker.ietf.org/doc/draft-bandyopadhayaya-oauth-push-device/) and [CIBA binding](https://datatracker.ietf.org/doc/draft-bandyopadhayaya-oauth-ciba-push-binding/)."
+          - "Author of two individual IETF Internet-Drafts on OAuth push-device discovery and CIBA binding."
           - "Own APIs, SDKs, reference apps, and proofs of concept in TypeScript and Go. Docker, Datadog, and GitLab CI."
       - company: "[EnvSync](https://envsync.cloud)"
         position: "Founder (concurrent)"
@@ -66,11 +66,34 @@ cv:
         end_date: "present"
         highlights:
           - "Self-hosted OAuth 2.0 and OpenID Connect (OIDC) issuer in Go: authorization code with PKCE, device code, CIBA, pushed authorization requests (PAR), DPoP, mutual TLS (mTLS), token exchange, and dynamic client registration."
+      - name: "[AuthLens](https://github.com/BRAVO68WEB/authlens)"
+        start_date: "2025-12"
+        end_date: "2026-03"
+        highlights:
+          - "TypeScript debugger for OAuth 2.0, OIDC, and SAML. Authorization code with PKCE, device code, SP- and IdP-initiated SAML, JWT checks against JWKS, and OIDC discovery."
+      - name: "[fwdx](https://github.com/BRAVO68WEB/fwdx)"
+        start_date: "2026-02"
+        end_date: "2026-03"
+        highlights:
+          - "Self-hosted HTTP tunnel in Go over gRPC. Admin login is OIDC, including device flow for the CLI. Per-agent credentials. Ingress is public, basic auth, a shared-secret header, or an IP allowlist."
       - name: "[Chabi](https://github.com/EnvSync-Cloud/chabi)"
         start_date: "2025-09"
         end_date: "2026-05"
         highlights:
           - "Redis-compatible server in Rust (RESP, snapshots). 4-vCPU benchmark: 35.6k ops/s versus Redis at 12.3k and DiceDB at 15.7k. GET p50 0.07 ms versus Redis 0.27 ms."
+    publications:
+      - title: "Discovery and Device Lifecycle for OAuth Push-Based Authentication"
+        authors:
+          - "**Jyotirmoy Bandyopadhayaya**"
+        date: "2026-07"
+        journal: "Individual IETF Internet-Draft"
+        url: "https://datatracker.ietf.org/doc/draft-bandyopadhayaya-oauth-push-device/"
+      - title: "CIBA Binding for OAuth Push-Based Authentication Device Discovery"
+        authors:
+          - "**Jyotirmoy Bandyopadhayaya**"
+        date: "2026-07"
+        journal: "Individual IETF Internet-Draft"
+        url: "https://datatracker.ietf.org/doc/draft-bandyopadhayaya-oauth-ciba-push-binding/"
     skills:
       - label: "Languages"
         details: "Go, Rust, TypeScript, Python, Bash"
