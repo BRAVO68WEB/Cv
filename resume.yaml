@@ -11,101 +11,77 @@ cv:
       username: "bravo68web"
   sections:
     summary:
-      - "Software engineer focused on backend systems, identity, and developer platforms. More than four years shipping production systems in Go, Rust, and TypeScript. Primary role is enterprise CIAM at LoginRadius. EnvSync runs alongside that role."
-      - "Author of IETF drafts on OAuth push-based authenticator discovery and CIBA binding. On systems owned end to end, this work cut AWS cost by 76%, lowered P95 latency by about 30%, and raised deploy frequency by about 10x."
+      - "Backend engineer for identity systems and developer platforms, working in Go, Rust, and TypeScript. 3.5 years of experience, full-time since July 2024. Primary role is customer identity at LoginRadius. EnvSync is a concurrent product. Author of two individual IETF Internet-Drafts on OAuth push-device discovery and CIBA binding."
     experience:
       - company: "[LoginRadius](https://www.loginradius.com)"
         position: "Software Engineer"
         start_date: "2024-07"
         end_date: "present"
         highlights:
-          - "Product and R&D: ship agentic IAM, MCP authentication, Demonstrating Proof of Possession (DPoP), Client Initiated Backchannel Authentication (CIBA), and B2B IAM on LoginRadius customer identity and access management (CIAM), including enterprise single sign-on (SSO), authentication, and authorization."
-          - "Author of IETF drafts on OAuth push-based authenticator discovery and lifecycle, and on CIBA binding."
-          - "Led enterprise CIAM integrations and wrote SDKs, docs, and reference apps that unblocked customer engineering teams."
-          - "Own APIs, SDKs, reference apps, and proofs of concept in TypeScript and Go, with Docker, DataDog, and GitLab CI."
-      - company: "[EnvSync Cloud](https://github.com/EnvSync-Cloud) ([envsync.cloud](https://envsync.cloud))"
-        position: "Founder & Product Architect (concurrent)"
+          - "Ship agentic IAM, MCP authentication, DPoP, and CIBA on LoginRadius customer identity and access management (CIAM), including B2B single sign-on and authorization."
+          - "Author of individual Internet-Drafts on [OAuth push-device discovery](https://datatracker.ietf.org/doc/draft-bandyopadhayaya-oauth-push-device/) and [CIBA binding](https://datatracker.ietf.org/doc/draft-bandyopadhayaya-oauth-ciba-push-binding/)."
+          - "Led enterprise CIAM integrations. Wrote the TypeScript and Go SDKs, docs, and reference apps that unblocked customer engineering teams. Docker, Datadog, and GitLab CI."
+      - company: "[EnvSync](https://envsync.cloud)"
+        position: "Founder and Product Architect (concurrent)"
         start_date: "2025-01"
         end_date: "present"
         highlights:
-          - "Multi-tenant secrets platform: Bun and Hono API, Go CLI, React dashboard, and TypeScript and Go SDKs. Dual-license open source and enterprise monorepo on Turborepo and Bun."
-          - "miniKMS in Go: per-tenant envelope encryption (HKDF, AES-256-GCM), a 3-level public key infrastructure (PKI), and hash-chained audit over gRPC."
+          - "Multi-tenant secrets platform: Bun and Hono API, Go CLI, React dashboard, and TypeScript and Go SDKs. Open source and enterprise editions in one Turborepo."
+          - "miniKMS in Go: per-tenant envelope encryption (HKDF, AES-256-GCM), a 3-level public key infrastructure (PKI), and a hash-chained audit log over gRPC."
           - "Enterprise edition: OpenID Connect (OIDC) and SAML single sign-on, OpenFGA authorization, secret rotation, dynamic secrets, and GitHub Actions pull."
       - company: "[Engineer's Cradle](https://engineerscradle.com)"
-        position: "Software Engineer (Founding Engineer, concurrent)"
+        position: "Founding Engineer (concurrent)"
         start_date: "2024-07"
         end_date: "2025-05"
         highlights:
-          - "Founding engineer. Set CI/CD and quality standards and cut onboarding time by about 40%."
-          - "Built Rust machine-to-machine authentication with 99.9% uptime, a Go GraphQL gateway that lowered P95 latency by about 30%, and GitHub Actions pipelines that raised deploy frequency by about 10x."
+          - "Concurrent with LoginRadius. Set CI/CD and code-quality standards and cut onboarding time by about 40%."
+          - "Built Rust machine-to-machine authentication (99.9% uptime) and a Go GraphQL gateway (P95 latency down about 30%). GitHub Actions pipelines raised deploy frequency by about 10x."
       - company: "[SaaSDen](https://dunlin.ai)"
         position: "Backend Developer"
         start_date: "2023-06"
         end_date: "2023-11"
         highlights:
-          - "Built SaaS product and IT integrations in Node.js, including identity and access management (IAM), APIs, and analytics."
-          - "Built deployment workflows for the product."
+          - "Built Node.js APIs, identity and access management (IAM) integrations, and deployment workflows for the SaaS product."
       - company: "[SharpSell](https://sharpsell.ai)"
         position: "Site Reliability Engineer"
         start_date: "2023-02"
         end_date: "2023-04"
         highlights:
-          - "Administered AWS (EC2, ECS, ECR, IAM). Moved workloads from EC2 to ECS and cut monthly AWS cost by 76% ($19K to $4.5K), with blue-green deploys."
-          - "Built deployment pipelines with AWS CodeBuild, CodePipeline, and GitHub Actions."
+          - "Cut the monthly AWS bill by 76% ($19K to $4.5K) by moving workloads from EC2 to ECS with blue-green deploys."
       - company: "[Hybr1d](https://zenadmin.io)"
         position: "Software Engineer Intern"
         start_date: "2022-07"
         end_date: "2022-12"
         highlights:
-          - "Developed and maintained the backend of the Hybr1d platform."
-          - "Migrated the backend from Ruby on Rails to TypeScript."
-          - "Built REST APIs with Node.js and Express, JWT authentication, PostgreSQL, MongoDB, Hasura, and GraphQL."
+          - "Migrated the backend from Ruby on Rails to TypeScript (REST, GraphQL, Node.js, PostgreSQL, Hasura)."
     projects:
-      - name: "[Oauth Implementation Server](https://github.com/BRAVO68WEB/oauth-impl)"
+      - name: "[oauth-impl](https://github.com/BRAVO68WEB/oauth-impl)"
         start_date: "2026-06"
         end_date: "present"
         highlights:
-          - "Self-hosted OAuth 2.0 and OpenID Connect (OIDC) issuer in Go. Supports authorization code with Proof Key for Code Exchange (PKCE), device code, Client Initiated Backchannel Authentication (CIBA), pushed authorization requests (PAR), Demonstrating Proof of Possession (DPoP), mutual TLS (mTLS), token exchange, and dynamic client registration."
-      - name: "[x-log](https://github.com/BRAVO68WEB/x-log)"
-        start_date: "2025-11"
-        end_date: "present"
-        highlights:
-          - "x-log is an open-source, Bun + TypeScript powered blog platform that federates with the Fediverse using ActivityPub. Readers on Mastodon, Elk, Soapbox, and compatible clients can search, read, like, and follow x-log profiles and posts directly from their clients."
+          - "Self-hosted OAuth 2.0 and OpenID Connect (OIDC) issuer in Go: authorization code with PKCE, device code, CIBA, pushed authorization requests (PAR), DPoP, mutual TLS (mTLS), token exchange, and dynamic client registration."
       - name: "[Chabi](https://github.com/EnvSync-Cloud/chabi)"
         start_date: "2025-09"
         end_date: "2026-05"
         highlights:
-          - "Rust Redis-compatible server using the Redis Serialization Protocol (RESP), with snapshot persistence."
-          - "On a 4-vCPU benchmark: 35.6k ops/s versus Redis at 12.3k and DiceDB at 15.7k (about 2.9x Redis). GET p50 was 0.07 ms versus Redis at 0.27 ms."
-    publications:
-      - title: "[OAuth Push-Device Discovery & Lifecycle](https://datatracker.ietf.org/doc/draft-bandyopadhayaya-oauth-push-device/)"
-        authors: ["J. Bandyopadhayaya"]
-        date: "2026-07"
-        journal: "IETF Internet-Drafts"
-      - title: "[CIBA Binding](https://datatracker.ietf.org/doc/html/draft-bandyopadhayaya-oauth-ciba-push-binding-00)"
-        authors: ["J. Bandyopadhayaya"]
-        date: "2026-07"
-        journal: "IETF Internet-Drafts"
+          - "Redis-compatible server in Rust (RESP, snapshots). 4-vCPU benchmark: 35.6k ops/s versus Redis at 12.3k and DiceDB at 15.7k. GET p50 0.07 ms versus Redis 0.27 ms."
     skills:
       - label: "Languages"
         details: "Go, Rust, TypeScript, Python, Bash"
       - label: "Systems"
-        details: "Microservices, REST, gRPC, GraphQL, PostgreSQL, SQL, Redis, Bun, Hono, Docker, Turborepo, GitHub Actions"
-      - label: "Identity & Security"
-        details: "OAuth 2.0, OpenID Connect (OIDC), SAML, single sign-on (SSO), authentication, authorization, CIBA, customer identity and access management (CIAM), IAM, OpenFGA, envelope encryption, key management (KMS), DevSecOps"
-      - label: "Cloud & Ops"
-        details: "AWS (ECS, EC2, S3, IAM, ECR, CodePipeline, CloudWatch), Cloudflare, Keycloak, DataDog, Prometheus, Grafana"
+        details: "gRPC, GraphQL, REST, PostgreSQL, Redis, Docker, Bun, Hono, GitHub Actions, GitLab CI"
+      - label: "Identity"
+        details: "OAuth 2.0, OIDC, SAML, SSO, CIBA, DPoP, PAR, mTLS, OpenFGA, envelope encryption, KMS"
+      - label: "Cloud"
+        details: "AWS (ECS, EC2, ECR, S3, CodePipeline), Cloudflare, Datadog, Prometheus, Grafana, Keycloak"
     education:
       - institution: "Lovely Professional University"
-        area: "Computer Science and Engineering (Cybersecurity), GPA 7.8/10"
+        area: "Computer Science (Cybersecurity)"
         start_date: "2020-06"
         end_date: "2024-06"
-        degree: "Bachelor of Technology (B.Tech)"
-    certifications:
-      - name: "[Certified Ethical Hacker (CEH) v12](https://safe.b68dev.xyz/Kz7jk0O8.pdf) by [EC-Council](https://www.eccouncil.org/)"
-        date: "2024-04"
-      - name: "[Certified Penetration Testing Specialist (CPTS)](https://www.credly.com/badges/d3c0c02e-4946-4ecb-a513-be4d2be8f812) by [HackTheBox](https://www.hackthebox.com/)"
-        date: "2024-07"
+        degree: "B.Tech"
+        highlights:
+          - "Certifications: [CPTS](https://www.credly.com/badges/d3c0c02e-4946-4ecb-a513-be4d2be8f812) (Hack The Box, 2024), [CEH v12](https://safe.b68dev.xyz/Kz7jk0O8.pdf) (EC-Council, 2024)."
 
 locale:
   language: english
@@ -113,6 +89,12 @@ locale:
 
 design:
   theme: engineeringresumes
+  page:
+    top_margin: "0.6in"
+    bottom_margin: "0.55in"
+    left_margin: "0.65in"
+    right_margin: "0.65in"
+    show_footer: false
   header:
     connections:
       phone_number_format: international
@@ -124,11 +106,11 @@ design:
       name: "22pt"
       section_titles: "1.1em"
   section_titles:
-    space_above: "0.28cm"
-    space_below: "0.15cm"
+    space_above: "0.22cm"
+    space_below: "0.12cm"
   sections:
-    space_between_regular_entries: "0.22cm"
-    space_between_text_based_entries: "0.08cm"
+    space_between_regular_entries: "0.16cm"
+    space_between_text_based_entries: "0.06cm"
   entries:
     highlights:
       space_above: 0.04cm
